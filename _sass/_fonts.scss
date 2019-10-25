@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'FuturaMedium';
+  font-display: auto; /* or block, swap, fallback, optional */
+  src: url('../fonts/Futura-Medium/Futura-Medium.eot');
+  src: url('../fonts/Futura-Medium/Futura-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Futura-Medium/Futura-Medium.woff2') format('woff2'),
+  url('../fonts/Futura-Medium/Futura-Medium.woff') format('woff'),
+  url('../fonts/Futura-Medium/Futura-Medium.ttf') format('truetype'),
+  url('../fonts/Futura-Medium/Futura-Medium.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBold';
+  font-display: auto; /* or block, swap, fallback, optional */
+  src: url('../fonts/Futura-Bold/Futura-Bold.eot');
+  src: url('../fonts/Futura-Bold/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Futura-Bold/Futura-Bold.woff2') format('woff2'),
+  url('../fonts/Futura-Bold/Futura-Bold.woff') format('woff'),
+  url('../fonts/Futura-Bold/Futura-Bold.ttf') format('truetype'),
+  url('../fonts/Futura-Bold/Futura-Bold.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Foundry-Regular';
+  font-display: auto; /* or block, swap, fallback, optional */
+  src: url('../fonts/Foundry-Regular/Foundry-Regular.eot');
+  src: url('../fonts/Foundry-Regular/Foundry-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Foundry-Regular/Foundry-Regular.woff') format('woff'),
+  url('../fonts/Foundry-Regular/Foundry-Regular.ttf') format('truetype'),
+  url('../fonts/Foundry-Regular/Foundry-Regular.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Foundry-Bold';
+  font-display: auto; /* or block, swap, fallback, optional */
+  src: url('../fonts/Foundry-Bold/Foundry-Bold.eot');
+  src: url('../fonts/Foundry-Bold/Foundry-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Foundry-Bold/Foundry-Bold.woff') format('woff'),
+  url('../fonts/Foundry-Bold/Foundry-Bold.ttf') format('truetype'),
+  url('../fonts/Foundry-Bold/Foundry-Bold.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('../fonts/Fontawesome/fa-brands-400.eot');
+  src: url('../fonts/Fontawesome/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Fontawesome/fa-brands-400.woff') format('woff'),
+  url('../fonts/Fontawesome/fa-brands-400.ttf') format('truetype'),
+  url('../fonts/Fontawesome/fa-brands-400.svg#FuturaMediumC') format('svg');
+}

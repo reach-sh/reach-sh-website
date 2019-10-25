@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="8px" viewBox="0 0 38 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>95FB9FAA-9DA5-413C-8982-C23DDA11B0DB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M-1,14.5 L0.41,15.44 L-3.172,17.833 L30,17.8333333 L30,19.1666667 L-3.173,19.166 L0.41,21.56 L-1,22.5 L-7,18.5 L-1,14.5 Z M-4,18.386 L-4.17,18.5 L-4,18.614 L-4,18.386 Z" id="path-1"></path>
+    </defs>
+    <g id="site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="how-it-works" transform="translate(-319.000000, -1776.000000)">
+            <g id="arrow" transform="translate(338.000000, 1779.500000) rotate(-90.000000) translate(-338.000000, -1779.500000) translate(326.000000, 1761.000000)">
+                <rect id="Base" x="2.27373675e-13" y="19.5" width="24" height="11"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#EA8331" transform="translate(11.500000, 18.500000) rotate(-90.000000) translate(-11.500000, -18.500000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
