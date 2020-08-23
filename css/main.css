@@ -12283,6 +12283,7 @@ header {
 @media screen and (max-width: 768px) {
   .services-page {
     background: url('../images/service/bg-gray-lines-mob.png') no-repeat 50% 38%;
+    background-size: cover;
   }
 }
 
