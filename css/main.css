@@ -11550,7 +11550,8 @@ header {
       max-height: initial;
       width: 5.4vw; }
   header .menu-container li {
-    display: inline-block; }
+    display: inline-block; 
+    position: relative; }
   header .menu-container .navbar-item {
     padding: 0.4vw 1.25vw; }
     header .menu-container .navbar-item:after {
@@ -12027,7 +12028,7 @@ header {
     header .navbar-end {
       display: flex;
       flex-wrap: wrap;
-      height: 100%; }
+      min-height: 83vh; }
       header .navbar-end .menu-container {
         width: 100%;
         margin-top: auto; }
@@ -12276,10 +12277,70 @@ header {
     height: calc(100vh - 18.5vw);
     padding-bottom: 15vw; }
   .navbar-menu.is-active {
-    height: calc(100vh - 30vw);
+    min-height: calc(100vh - 30vw);
     padding-bottom: 5vw; } }
 
 /* --------------- */
+
+@media screen and (min-width: 769px) {
+  header .dropdown-services:hover .dropdown-menu{
+    display: block;
+  }
+}
+
+header .dropdown-menu {
+  position: absolute;
+  z-index: 10;
+  top: 2vw;
+  width: 16vw;
+  border-radius: 1vw;
+  padding: 1vw;
+  background-color: #ffffff;
+  box-shadow: 0 8px 26px 0 rgba(0, 0, 0, 0.06);
+}
+@media screen and (max-width: 768px) {
+  header .dropdown-menu {
+    position: initial;
+    width: auto;
+  }
+}
+
+header .dropdown-menu.open {
+  display: block;
+}
+
+header .dropdown-menu li {
+  display: block;
+}
+
+header .dropdown-menu a {
+  color: #28314E;
+  font-family: FuturaMedium;
+  font-size: 1vw;
+}
+@media screen and (max-width: 768px) {
+  header .dropdown-menu a {
+    display: block;
+    border-bottom: 1px solid rgba(43, 158, 142, 0.3);
+    padding: 0.4vw 1.25vw;
+    font-size: 5.5vw;
+    line-height: 18.7vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-show-dropdown {
+    position: absolute;
+    top: 6vw;
+    right: 30vw;
+    z-index: 10;
+    display: block;
+    width: 4vw;
+    height: 6vw;
+    background: url('../images/icon-arrow-down.png') no-repeat;
+    background-size: contain;
+  }
+}
 
 .services-page {
   background: url('../images/service/bg-gray-lines-desk.png') no-repeat 50% 38%;
