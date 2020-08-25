@@ -11770,7 +11770,7 @@ header {
   .footer .social-container a {
     color: #858695; }
   .footer .columns {
-    align-items: center; }
+    align-items: flex-end; }
   .footer .footer-logo img {
     width: 5.1vw; }
 
@@ -11790,6 +11790,8 @@ header {
     font-size: 1.1vw; }
 
 .footer-list {
+  display: flex;
+  justify-content: space-evenly;
   font-family: FuturaMedium; }
   .footer-list a {
     font-size: 1.2vw;
@@ -12648,7 +12650,6 @@ header {
 }
 
 .services-page .form-wrap .field input,
-.services-page .form-wrap .field select,
 .services-page .form-wrap .field textarea {
   width: 100%;
   height: 3.4vw;
@@ -12659,24 +12660,11 @@ header {
 
 @media screen and (max-width: 768px) {
   .services-page .form-wrap .field input,
-  .services-page .form-wrap .field select,
   .services-page .form-wrap .field textarea {
     height: 9.4vw;
     font-size: 3.5vw;
     padding: 2vw;
     border-radius: 5.333vw;
-  }
-}
-
-.services-page .form-wrap .field select {
-  background: #ffffff70 url('../images/icon-arrow-down.png') no-repeat 94% 0.667vw / 1vw;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-}
-@media screen and (max-width: 768px) {
-  .services-page .form-wrap .field select {
-    background: #ffffff70 url('../images/icon-arrow-down.png') no-repeat 94% 2vw / 2.5vw;
   }
 }
 
